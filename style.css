@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: #C7A083;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+ ul{
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 140px;
+ }
+
+
+ul li{
+    list-style: none;
+    color:#fff;
+    font-size: 20px;
+}
+
+
+.content{
+    position: absolute;
+    top: 35%;
+    color: #392E2E;
+    width: 650px;
+}
+
+.content h1{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+.content p{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background: #6B4A34;
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 30px;
+    transition: .3s linear;
+    border-radius: 10px;
+}
+
+button:hover{
+    scale: .8;
+    background-color: #6B4A34;
+}
+
+.coffee{
+    width: 600px;
+    position: absolute;
+    bottom: 18%;
+    right: 6%;
+    border-radius: 8px;
+}
